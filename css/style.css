@@ -10,8 +10,6 @@ input.searche {
 	border: 0;
 	display: flex;
 	align-content: center;
-
-	padding-left: 35px;
 }
 .border-white-2 {
 	border: 2px solid white;
@@ -24,9 +22,10 @@ input.searche::placeholder {
 	color: gray !important;
 	background-image: url(/assets/search-solid.svg);
 	background-repeat: no-repeat;
+	padding-left: 20px;
 	background-size: 7%;
-	background-position: 5%;
-}
+	background-position: 1%;
+  }
 
 .body {
 	background-color: #f3f2ef !important;
